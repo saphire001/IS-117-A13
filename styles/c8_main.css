@@ -180,7 +180,17 @@ footer p {
 	display: none;
 }
 
-/* Portrait Standard */
+/* Portrait Standards */
+@media only screen and (max-width: 959px) {
+	section h1 {
+		font-size: 135%;
+	}
+
+	section h2, aside h2 {
+		font-size: 120%;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	header img {
 		float: none;
